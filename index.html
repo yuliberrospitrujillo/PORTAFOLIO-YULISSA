@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Yulissa Berrospi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav>
+    <h2 class="logo">Yulissa</h2>
+
+    <button id="hamburguesa" aria-label="Abrir menú">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <ul id="menu-lista">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre">Sobre mí</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#idiomas">Idiomas</a></li>
+        <li><a href="#certificados">Certificados</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+
+    <button id="modo">
+        <i class="fa-solid fa-moon"></i>
+    </button>
+</nav>
+</header>
+
+<!-- INICIO / HERO -->
+<section id="inicio" class="hero">
+    <div class="contenido">
+        <img src="img/foto.jpeg" class="perfil" alt="Foto de Yulissa">
+        <h1>Yulissa Mariza Berrospi Trujillo</h1>
+        <h3>Estudiante de Ingeniería Industrial</h3>
+        <p>Estudiante de Ingeniería Industrial con interés en Gestión de Operaciones y Producción. Responsable, organizada, proactiva y comprometida con la mejora continua.</p>
+        <div class="hero-botones">
+            <a href="cv/CV.pdf" download class="btn">
+                <i class="fa-solid fa-download"></i> Descargar CV
+            </a>
+            <a href="#contacto" class="btn btn-outline">
+                <i class="fa-solid fa-envelope"></i> Contáctame
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- SOBRE MÍ -->
+<section id="sobre">
+    <h2><span class="linea-titulo">Sobre mí</span></h2>
+    <div class="sobre-contenido">
+        <div class="sobre-texto">
+            <p>Soy estudiante de Ingeniería Industrial de la Universidad Nacional Hermilio Valdizán, cursando el 4.º año. Me interesa la gestión de operaciones, producción y mejora de procesos. Me caracterizo por trabajar en equipo, aprender constantemente y asumir nuevos retos con responsabilidad y proactividad.</p>
+        </div>
+        <div class="sobre-datos">
+            <div class="dato">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <strong>Ubicación</strong>
+                    <span>Ambo, Huánuco — Perú</span>
+                </div>
+            </div>
+            <div class="dato">
+                <i class="fa-solid fa-cake-candles"></i>
+                <div>
+                    <strong>Fecha de nacimiento</strong>
+                    <span>03 de enero de 2006</span>
+                </div>
+            </div>
+            <div class="dato">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                    <strong>Universidad</strong>
+                    <span>UNHEVAL</span>
+                </div>
+            </div>
+            <div class="dato">
+                <i class="fa-solid fa-briefcase"></i>
+                <div>
+                    <strong>Especialidad</strong>
+                    <span>Gestión de Operaciones y Producción</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EDUCACIÓN -->
+<section id="educacion">
+    <h2><span class="linea-titulo">Educación</span></h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-icono"><i class="fa-solid fa-university"></i></div>
+            <div class="card">
+                <span class="etiqueta">2023 — Actualidad</span>
+                <h3>Universidad Nacional Hermilio Valdizán</h3>
+                <p>Ingeniería Industrial — 4.º año en curso</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-icono"><i class="fa-solid fa-school"></i></div>
+            <div class="card">
+                <span class="etiqueta">Primaria y Secundaria</span>
+                <h3>Colegio Galileo Galilei College</h3>
+                <p>Formación básica regular</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EXPERIENCIA -->
+<section id="experiencia">
+    <h2><span class="linea-titulo">Experiencia Laboral</span></h2>
+    <div class="card exp-card">
+        <div class="exp-header">
+            <div>
+                <h3>Cooperativa Señor de los Milagros — Atacocha</h3>
+                <h4>Apoyo Operativo</h4>
+            </div>
+            <span class="etiqueta">Enero 2025 — Marzo 2025</span>
+        </div>
+        <ul>
+            <li><i class="fa-solid fa-check"></i> Atención al cliente y orientación a socios.</li>
+            <li><i class="fa-solid fa-check"></i> Control y organización de materiales.</li>
+            <li><i class="fa-solid fa-check"></i> Coordinación de actividades para entregas oportunas.</li>
+            <li><i class="fa-solid fa-check"></i> Trabajo en equipo, responsabilidad y organización.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- HABILIDADES -->
+<section id="habilidades">
+    <h2><span class="linea-titulo">Habilidades</span></h2>
+    <div class="habilidades">
+        <div class="card">
+            <h3><i class="fa-solid fa-laptop-code"></i> Técnicas</h3>
+            <div class="skill-bar-list">
+
+                <div class="skill-item">
+                    <div class="skill-label">
+                        <span><i class="fa-brands fa-microsoft"></i> Microsoft Excel</span>
+                        <span class="skill-pct">85%</span>
+                    </div>
+                    <div class="barra-skill"><div data-width="85"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-label">
+                        <span><i class="fa-brands fa-microsoft"></i> Microsoft Word</span>
+                        <span class="skill-pct">90%</span>
+                    </div>
+                    <div class="barra-skill"><div data-width="90"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-label">
+                        <span><i class="fa-solid fa-chart-bar"></i> Power BI</span>
+                        <span class="skill-pct">55%</span>
+                    </div>
+                    <div class="barra-skill"><div data-width="55"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-label">
+                        <span><i class="fa-solid fa-presentation-screen"></i> PowerPoint</span>
+                        <span class="skill-pct">80%</span>
+                    </div>
+                    <div class="barra-skill"><div data-width="80"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-label">
+                        <span><i class="fa-solid fa-gear"></i> WinQSB</span>
+                        <span class="skill-pct">50%</span>
+                    </div>
+                    <div class="barra-skill"><div data-width="50"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-label">
+                        <span><i class="fa-solid fa-diagram-project"></i> Diagrama DOP y DAP</span>
+                        <span class="skill-pct">75%</span>
+                    </div>
+                    <div class="barra-skill"><div data-width="75"></div></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <h3><i class="fa-solid fa-people-group"></i> Blandas</h3>
+            <div class="skill-bar-list">
+
+                <div class="skill-item">
+                    <div class="skill-label">
+                        <span><i class="fa-solid fa-users"></i> Trabajo en equipo</span>
+                        <span class="skill-pct">95%</span>
+                    </div>
+                    <div class="barra-skill"><div data-width="95"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-label">
+                        <span><i class="fa-solid fa-comments"></i> Comunicación efectiva</span>
+                        <span class="skill-pct">85%</span>
+                    </div>
+                    <div class="barra-skill"><div data-width="85"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-label">
+                        <span><i class="fa-solid fa-star"></i> Responsabilidad</span>
+                        <span class="skill-pct">95%</span>
+                    </div>
+                    <div class="barra-skill"><div data-width="95"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-label">
+                        <span><i class="fa-solid fa-clock"></i> Puntualidad</span>
+                        <span class="skill-pct">90%</span>
+                    </div>
+                    <div class="barra-skill"><div data-width="90"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-label">
+                        <span><i class="fa-solid fa-bolt"></i> Proactividad</span>
+                        <span class="skill-pct">88%</span>
+                    </div>
+                    <div class="barra-skill"><div data-width="88"></div></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- IDIOMAS -->
+<section id="idiomas">
+    <h2><span class="linea-titulo">Idiomas</span></h2>
+    <div class="idiomas-grid">
+        <div class="card idioma-card">
+            <i class="fa-solid fa-language"></i>
+            <h3>Español</h3>
+            <p>Nativo</p>
+            <div class="barra-nivel"><div style="width:100%"></div></div>
+        </div>
+        <div class="card idioma-card">
+            <i class="fa-solid fa-language"></i>
+            <h3>Inglés</h3>
+            <p>Básico (CID)</p>
+            <div class="barra-nivel"><div style="width:30%"></div></div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section id="certificados">
+    <h2><span class="linea-titulo">Certificados</span></h2>
+    <div class="galeria">
+
+        <!-- CERTIFICADO 1: MayuGo -->
+        <div class="certificado">
+            <img src="certificados/certificado1.png" alt="Certificado Transformación Digital">
+            <div class="cert-info">
+                <span class="cert-org">MayuGo</span>
+                <h3>Introducción a Transformación Digital</h3>
+                <p><i class="fa-solid fa-clock"></i> 20 horas · Julio 2025</p>
+                <p class="cert-id"><i class="fa-solid fa-id-card"></i> ID: TRANSXFFUTD024</p>
+                <a href="certificados/certificado1.png" target="_blank">
+                    <button><i class="fa-solid fa-eye"></i> Ver certificado</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- CERTIFICADO 2: Open Day UNHEVAL -->
+        <div class="certificado">
+            <img src="certificados/certificado2.png" alt="Certificado Open Day 2023">
+            <div class="cert-info">
+                <span class="cert-org">UNHEVAL</span>
+                <h3>V Foro Internacional — Open Day 2023</h3>
+                <p><i class="fa-solid fa-calendar"></i> 30 de noviembre de 2023</p>
+                <p class="cert-id"><i class="fa-solid fa-id-card"></i> ID: DITT-ASIS-VFOR-OD23-061</p>
+                <a href="certificados/certificado2.png" target="_blank">
+                    <button><i class="fa-solid fa-eye"></i> Ver certificado</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- CERTIFICADO 3: Sensibilización UNHEVAL -->
+        <div class="certificado">
+            <img src="certificados/certificado3.png" alt="Constancia Sensibilización en Innovación">
+            <div class="cert-info">
+                <span class="cert-org">UNHEVAL</span>
+                <h3>Sensibilización en Innovación y Emprendimiento</h3>
+                <p><i class="fa-solid fa-clock"></i> 8 horas · 18 de mayo de 2023</p>
+                <p class="cert-id"><i class="fa-solid fa-id-card"></i> Emisión: 30/05/2023</p>
+                <a href="certificados/certificado3.png" target="_blank">
+                    <button><i class="fa-solid fa-eye"></i> Ver certificado</button>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- CONTACTO -->
+<section id="contacto">
+    <h2><span class="linea-titulo">Contacto</span></h2>
+    <div class="contacto-grid">
+        <a class="contacto-item" href="mailto:yberrospitrujillo@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+                <strong>Correo electrónico</strong>
+                <span>yberrospitrujillo@gmail.com</span>
+            </div>
+        </a>
+        <a class="contacto-item" href="tel:+51928399465">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+                <strong>Teléfono</strong>
+                <span>928 399 465</span>
+            </div>
+        </a>
+        <div class="contacto-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+                <strong>Ubicación</strong>
+                <span>Ambo — Huánuco, Perú</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 — Yulissa Mariza Berrospi Trujillo &nbsp;|&nbsp; Ingeniería Industrial</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
